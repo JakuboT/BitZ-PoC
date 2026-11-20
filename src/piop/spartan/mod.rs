@@ -38,6 +38,7 @@ pub mod u32_mul;
 pub use mul::{MulError, MulLayout, MulRow, MulWitness, MulWord};
 pub mod u64_bitz;
 pub mod u64_mul;
+pub mod valid_until;
 #[cfg(test)]
 #[cfg(test)]
 pub(crate) use crate::sumcheck::outer::native_skip as univariate_skip_native;
